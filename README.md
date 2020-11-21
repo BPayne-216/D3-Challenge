@@ -11,7 +11,7 @@ Intro to this project
 https://bpayne-216.github.io/Plot.ly-Homework/
 
 
-This project used javascript and a JSON file to create a robust, analytical website based on samples of belly button microbes.  HTML, D3, Plot.ly, and bootstrap were used to create the website.
+This project used javascript and a .csv file to create D3 interative visual based on U.S. Census data.  HTML, D3, css, and bootstrap were used to create the website.
 
 The motivation of this project is utilize Plot.ly graphing inside of Javascript to create charts that illustrate the details of the Belly Button samples.  The JSON file contained IDs of the samples, along with Microbe detail and demographic characteristics of each sample.
 
