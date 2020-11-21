@@ -8,7 +8,7 @@ D3 Homework - Data Journalism and D3
 
 Intro to this project
 
-https://bpayne-216.github.io/Plot.ly-Homework/
+https://bpayne-216.github.io/D3-Challenge/
 
 
 This project used javascript and a .csv file to create D3 interative visual based on U.S. Census data.  HTML, D3, css, and bootstrap were used to create the website.
