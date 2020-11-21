@@ -15,19 +15,18 @@ This project used javascript and a .csv file to create an D3 interactive visual 
 
 The motivation of this project is utilize D3 interactive graphing function.  In this example, an interactive bubble chart was created which plotted the lack of Healthcare (%) on the Y-axis, but the Poverty level (%) on the X-axis for each state.
 
-Elements of the javascript (app.js) file:
-Names (IDs).  MetaData (consists of demographic data: ID, ethnicity, gender, age, location, bbtype, and ufreq).  Samples (IDs and microbe scientific names).
+Elements of the data.csv file
+This file comes from the U.S. Census Bureau.  It is based on 2014 ACS 1-year estimates from the U.S. Census Bureau.  For this graph, the relation of State (state abbreviation), Lack of Healthcare (%) and Poverty Level (%).
 
-Elements of HTML file:
-Dropdown function: accesses the ID of sample and utilities a dropdown to choose the ID of sample.
+Elements of app.js javascript file 
+SVG, or scalable vector graphics,  were defined, for the bubble chart.
 
-BarChart: based on the sample chosen in dropdown, the Top 10 OTUs of the sample.  Needed to reverse.
+Rendering the axis and cirlces based on the variables and dimensions.
 
-BubbleChart: Based on the sample chosen in dropdown, the sample values and IDs are reviewed and scaled by bubble size.
+D3 Tooltips were used to highlight or "mouseover" and highlight the state abbreviation with plotpoints of Lack of Healthcare and Poverty % observable when mouse is hovering over plotpoint.
 
-Demographic Field Box: details the fields of the metadata JSON based on the chosen ID in the dropdown.
 
 Technology/Framework (In order):  
-VS Code Editor: HTML (bootstrap).  Javascript. Within Javascript: D3, Plot.ly.  When reviewing the index.html file, needed to review by accessing http.server.
+VS Code Editor: HTML (bootstrap, css).  Javascript. Within Javascript: D3 was used to create the interactive visual (bubble chart).   When reviewing the index.html file, needed to review by accessing http.server.
 
 
