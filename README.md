@@ -11,11 +11,11 @@ Intro to this project
 https://bpayne-216.github.io/D3-Challenge/
 
 
-This project used javascript and a .csv file to create D3 interative visual based on U.S. Census data.  HTML, D3, css, and bootstrap were used to create the website.
+This project used javascript and a .csv file to create an D3 interactive visual based on U.S. Census data.  HTML, javascript, D3, css, and bootstrap were used to create the website.
 
-The motivation of this project is utilize Plot.ly graphing inside of Javascript to create charts that illustrate the details of the Belly Button samples.  The JSON file contained IDs of the samples, along with Microbe detail and demographic characteristics of each sample.
+The motivation of this project is utilize D3 interactive graphing function.  In this example, an interactive bubble chart was created which plotted the lack of Healthcare (%) on the Y-axis, but the Poverty level (%) on the X-axis for each state.
 
-Elements of the Samples.JSON
+Elements of the javascript (app.js) file:
 Names (IDs).  MetaData (consists of demographic data: ID, ethnicity, gender, age, location, bbtype, and ufreq).  Samples (IDs and microbe scientific names).
 
 Elements of HTML file:
