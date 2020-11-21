@@ -1,7 +1,7 @@
 # D3-Challenge
 D3 Homework - Data Journalism and D3
 
-![image of HW](https://github.com/BPayne-216/Plot.ly-Homework/blob/main/Images/bacteria.jpg)
+![image of HW](https://github.com/BPayne-216/D3-Challenge/blob/main/Images/press.gif)
 
 
 D3 Homework - Data Journalism and D3
